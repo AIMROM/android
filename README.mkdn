@@ -24,6 +24,10 @@ Additionally, you can define the number of parallel download repo should do:
 
 With X being the number of parallel downloads
 
+# Root options (To be added to aim.mk)
+export WITH_MAGISK=TRUE-- to compile builds with Magisk root
+export WITH_SU=TRUE -- to compile builds with default su provided by LineageOS
+
  Building The Project
  ----------------------------------
 
